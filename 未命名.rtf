@@ -1,0 +1,422 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset0 Menlo-Italic;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 Menlo-BoldItalic;}
+{\colortbl;\red255\green255\blue255;\red3\green54\blue255;\red235\green235\blue235;\red83\green118\blue172;
+\red0\green0\blue109;\red20\green51\blue149;\red109\green109\blue109;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\i\fs40 \cf0 <?
+\f1\i0\b \cf2 \cb3 xml version=\cf4 "1.0" \cf2 encoding=\cf4 "UTF-8"
+\f0\i\b0 \cf0 \cb1 ?>\
+\
+
+\f2\i0 \cb3 <
+\f1\b \cf5 project \cf2 xmlns=\cf4 "http://maven.apache.org/POM/4.0.0" \cf2 xmlns:\cf6 xsi\cf2 =\cf4 "http://www.w3.org/2001/XMLSchema-instance"\
+  \cf6 xsi\cf2 :schemaLocation=\cf4 "http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+\f2\b0 \cf0 >\cb1 \
+  \cb3 <
+\f1\b \cf5 modelVersion
+\f2\b0 \cf0 >\cb1 4.0.0\cb3 </
+\f1\b \cf5 modelVersion
+\f2\b0 \cf0 >\cb1 \
+\
+  \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 com.dharma.jpa\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+  \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 demo\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+  \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 1.0-SNAPSHOT\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+  \cb3 <
+\f1\b \cf5 packaging
+\f2\b0 \cf0 >\cb1 war\cb3 </
+\f1\b \cf5 packaging
+\f2\b0 \cf0 >\cb1 \
+\
+  \cb3 <
+\f1\b \cf5 name
+\f2\b0 \cf0 >\cb1 demo Maven Webapp\cb3 </
+\f1\b \cf5 name
+\f2\b0 \cf0 >\cb1 \
+  
+\f0\i \cf7 <!-- 
+\f3\b \cf2 FIXME change it to the project's website 
+\f0\b0 \cf7 -->\
+  
+\f2\i0 \cf0 \cb3 <
+\f1\b \cf5 url
+\f2\b0 \cf0 >\cb1 http://www.example.com\cb3 </
+\f1\b \cf5 url
+\f2\b0 \cf0 >\cb1 \
+\
+  \cb3 <
+\f1\b \cf5 properties
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 spring.framework
+\f2\b0 \cf0 >\cb1 4.3.16.RELEASE\cb3 </
+\f1\b \cf5 spring.framework
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 postgres.version
+\f2\b0 \cf0 >\cb1 42.1.4\cb3 </
+\f1\b \cf5 postgres.version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 serializer.version
+\f2\b0 \cf0 >\cb1 2.8.1\cb3 </
+\f1\b \cf5 serializer.version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 spring.data
+\f2\b0 \cf0 >\cb1 1.11.2.RELEASE\cb3 </
+\f1\b \cf5 spring.data
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 hibernate.manager
+\f2\b0 \cf0 >\cb1 5.3.0.CR2\cb3 </
+\f1\b \cf5 hibernate.manager
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 servlet.api
+\f2\b0 \cf0 >\cb1 3.1.0\cb3 </
+\f1\b \cf5 servlet.api
+\f2\b0 \cf0 >\cb1 \
+  \cb3 </
+\f1\b \cf5 properties
+\f2\b0 \cf0 >\cb1 \
+\
+  \cb3 <
+\f1\b \cf5 dependencies
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 org.springframework\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 spring-webmvc\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{spring.framework\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 org.postgresql\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 postgresql\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{postgres.version\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 org.springframework\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 spring-core\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{spring.framework\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 org.springframework\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 spring-context\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{spring.framework\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 org.springframework.data\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 spring-data-jpa\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{spring.data\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 org.hibernate\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 hibernate-entitymanager\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{hibernate.manager\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 javax.servlet\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 javax.servlet-api\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{servlet.api\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 scope
+\f2\b0 \cf0 >\cb1 provided\cb3 </
+\f1\b \cf5 scope
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 com.fasterxml.jackson.core\cb3 </
+\f1\b \cf5 groupId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 jackson-databind\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+      \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 $\{serializer.version\}\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 dependency
+\f2\b0 \cf0 >\cb1 \
+  \cb3 </
+\f1\b \cf5 dependencies
+\f2\b0 \cf0 >\cb1 \
+\
+  \cb3 <
+\f1\b \cf5 build
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 finalName
+\f2\b0 \cf0 >\cb1 demo\cb3 </
+\f1\b \cf5 finalName
+\f2\b0 \cf0 >\cb1 \
+    \cb3 <
+\f1\b \cf5 pluginManagement
+\f2\b0 \cf0 >
+\f0\i \cf7 \cb1 <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->\
+      
+\f2\i0 \cf0 \cb3 <
+\f1\b \cf5 plugins
+\f2\b0 \cf0 >\cb1 \
+        \cb3 <
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 maven-clean-plugin\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 3.1.0\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+        \cb3 </
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+        
+\f0\i \cf7 <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->\
+        
+\f2\i0 \cf0 \cb3 <
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 maven-resources-plugin\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 3.0.2\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+        \cb3 </
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+        \cb3 <
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 maven-compiler-plugin\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 3.8.0\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+        \cb3 </
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+        \cb3 <
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 maven-surefire-plugin\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 2.22.1\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+        \cb3 </
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+        \cb3 <
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 maven-war-plugin\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 3.2.2\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+        \cb3 </
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+        \cb3 <
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 maven-install-plugin\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 2.5.2\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+        \cb3 </
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+        \cb3 <
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 maven-deploy-plugin\cb3 </
+\f1\b \cf5 artifactId
+\f2\b0 \cf0 >\cb1 \
+          \cb3 <
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 2.8.2\cb3 </
+\f1\b \cf5 version
+\f2\b0 \cf0 >\cb1 \
+        \cb3 </
+\f1\b \cf5 plugin
+\f2\b0 \cf0 >\cb1 \
+      \cb3 </
+\f1\b \cf5 plugins
+\f2\b0 \cf0 >\cb1 \
+    \cb3 </
+\f1\b \cf5 pluginManagement
+\f2\b0 \cf0 >\cb1 \
+  \cb3 </
+\f1\b \cf5 build
+\f2\b0 \cf0 >\cb1 \
+\cb3 </
+\f1\b \cf5 project
+\f2\b0 \cf0 >\cb1 \
+\
+}
